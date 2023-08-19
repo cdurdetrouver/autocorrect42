@@ -5,3 +5,8 @@ output
 *.h
 !main.h
 !ft_stock_str.h
+*.sh
+*.a
+*/*/srcs
+*/*/includes
+c09/ex01/Makefile
