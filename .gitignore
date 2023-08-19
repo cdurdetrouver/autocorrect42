@@ -1,0 +1,7 @@
+output
+*.c
+!main.c
+!func.c
+*.h
+!main.h
+!ft_stock_str.h

@@ -1,5 +1,3 @@
 
-excepted output :
+expected output :
 abcdefghijklmnopqrstuvwxyz
-
-if there no newline between your line and excepted it's okay
