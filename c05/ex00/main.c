@@ -6,30 +6,25 @@
 /*   By: gbazart <gbazart@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/19 15:07:36 by gbazart           #+#    #+#             */
-/*   Updated: 2023/08/20 08:37:13 by gbazart          ###   ########.fr       */
+/*   Updated: 2023/08/20 08:34:19 by gbazart          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
 #include <stdio.h>
-#include <stdlib.h>
 
-char	*ft_strdup(char *src);
+int	ft_iterative_factorial(int nb);
 
 int	main(void)
 {
-	char str[64] = "bonjour test";
-	char *str3;
-	char str2[64] = "bonjour test";
-	char *str4;
-	printf("\n");
-	printf("expected output :\n");
-	str3 = strdup(str);
-	printf("%s\n", str3);
-	printf("output :\n");
-	str4 = ft_strdup(str2);
-	printf("%s\n\n", str4);
-	free(str3);
-	free(str4);
+	int	testNumbers[] = {-42, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
+	int	numTests;
+	int	num;
+
+	numTests = sizeof(testNumbers) / sizeof(testNumbers[0]);
+	for (int i = 0; i < numTests; i++)
+	{
+		num = testNumbers[i];
+		printf("Le factoriel de %d est %d.\n", num, ft_iterative_factorial(num));
+	}
 	return (0);
 }
