@@ -6,14 +6,14 @@
 #    By: gbazart <gbazart@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/08/19 15:20:09 by gbazart           #+#    #+#              #
-#    Updated: 2023/08/20 11:13:18 by gbazart          ###   ########.fr        #
+#    Updated: 2023/08/20 11:13:26 by gbazart          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = output
 FLAGS = -Wall -Wextra -Werror
 MAIN = main.c
-FILES =
+FILES = ft_sort_string_tab.c
 OUTPUT = output.wait
 
 all: $(NAME)

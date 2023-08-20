@@ -12,5 +12,5 @@ output
 !c09/ex01/includes/*.h
 
 c09/ex01/Makefile
-!c09/ex01/run.sh
+!run.sh
 *.o
