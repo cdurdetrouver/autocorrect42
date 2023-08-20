@@ -1,3 +1,6 @@
+make fclean
+make
+
 if 	[ ! -f "./srcs/ft_putchar.o" ];then
 	echo "ft_putchar.o n'est pas au bon endroit !";
 fi
